@@ -4,10 +4,10 @@ import Footer from './components/Footer';
 
 export default function App() {
   const dogs = [
-    { name: 'Bruce', image: 'src/images/p1.jpg', description: 'babea', tag: { text: 'Grande', color: '#ff0000' } },
-    { name: 'Steve', image: 'src/images/p2.jpg', description: 'Muerde', tag: { text: 'Chico', color: '#00ff00' } },
-    { name: 'Nicko', image: 'src/images/p3.jpg', description: 'Se hace pipi', tag: { text: 'Mediano', color: '#0000ff' } },
-    { name: 'Adrian', image: 'src/images/p4.jpg', description: '3 patas 1/2 Cola', tag: { text: 'Enano', color: '#ffff00' } },
+    { name: 'Bruce', image: 'src/images/p1.jpg', description: 'babea', tag: { text: 'Grande', color: 'danger' } },
+    { name: 'Steve', image: 'src/images/p2.jpg', description: 'Muerde', tag: { text: 'Chico', color: 'success' } },
+    { name: 'Nicko', image: 'src/images/p3.jpg', description: 'Se hace pipi', tag: { text: 'Mediano', color: 'primary' } },
+    { name: 'Adrian', image: 'src/images/p4.jpg', description: '3 patas 1/2 Cola', tag: { text: 'Enano', color: 'warning' } },
   ];
 
   return (
